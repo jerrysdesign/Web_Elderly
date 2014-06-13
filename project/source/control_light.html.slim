@@ -1,0 +1,54 @@
+.container
+  ul.control_area
+    li.kitchen
+      .inner
+        .pic
+          //= image_tag(lorem_image("240x200"))
+        .thermometer
+          span 29
+          a.btn.btn_close data-toggle=".ac_system" href="javascript:;"
+        .btn_trigger
+          #Trigger.btn.btn_trigger_on
+      #ac_system.ac_system
+        ul.ac_control
+          li: a.btn_ac_up_p href="javascript:;"
+          li: a.btn_ac_down_p href="javascript:;"
+          li: a.btn_ac_auto_p href="javascript:;"
+          li: a.btn_ac_down_p href="javascript:;"
+    li.bedroom
+      .inner
+        .pic
+          //= image_tag(lorem_image("240x200"))
+        .thermometer
+          span 29
+          #Close.btn.btn_close
+        .btn_trigger
+          #Trigger.btn.btn_trigger_on
+      .ac_system.close
+        ul.ac_control
+          li: a.btn_ac_up_p href="javascript:;"
+          li: a.btn_ac_down_p href="javascript:;"
+          li: a.btn_ac_auto_p href="javascript:;"
+          li: a.btn_ac_down_p href="javascript:;"
+    li.study
+      .inner
+        .pic
+          //= image_tag(lorem_image("240x200"))
+        .thermometer
+          span 29
+          #Close.btn.btn_close
+        .btn_trigger
+          #Trigger.btn.btn_trigger_on
+      .ac_system.close
+        ul.ac_control
+          li: a.btn_ac_up_p href="javascript:;"
+          li: a.btn_ac_down_p href="javascript:;"
+          li: a.btn_ac_auto_p href="javascript:;"
+          li: a.btn_ac_down_p href="javascript:;"
+
+javascript:
+
+
+  $(function(){
+    featureControlCC();
+  });

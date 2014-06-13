@@ -1,0 +1,4 @@
+project/source/source/.psd*
+project/source/.sass-cache/**/*
+project/source/stylesheets/*
+project/source/fire_app_log.txt

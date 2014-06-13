@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+	<meta>
+	<title>control_light</title>
+	<link href='http://fonts.googleapis.com/css?family=Michroma' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="scripts/jquery-1.8.3.min.js"></script>
+	<style>
+		body,ul,li{margin:0;padding:0}
+		ul,li{list-style:none}
+		body{font:24px/1.6em 'Michroma',sans-serif;color:#598ca6;background:url('img/control_bg.png') repeat-x 0 0}
+
+		.control_area li{float:left;width:264px;height:490px;margin:35px 46px 35px 0}
+			.kitchen,.bedroom,.study{background:url('img/control_box.png') no-repeat 0 0}
+			.bedroom{background-position:0 -490px}
+			.study{background-position:0 -980px}
+	</style>
+</head>
+<body>
+	<ul class="control_area">
+		<li class="kitchen"></li>
+		<li class="bedroom"></li>
+		<li class="study"></li>
+	</ul>
+</body>
+</html>
+<script>
+	$(function(){
+		var a = 1;
+		console.log(a)
+	});
+</script>
